@@ -14,18 +14,14 @@
 		"permission": ""
 	},
 	"game": {
-		"name": "Arma Reforger Docker Server",
+		"name": "Sunday Afternoon Gunsmoke",
 		"password": "",
 		"passwordAdmin": "",
 		"admins": [],
-		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
-		"maxPlayers": 64,
+		"scenarioId": "{DFAC5FABD11F2390}Missions/26_CombatOpsEveron.conf",
+		"maxPlayers": 6,
 		"visible": true,
-		"supportedPlatforms": [
-			"PLATFORM_PC",
-			"PLATFORM_XBL",
-			"PLATFORM_PSN"
-		],
+		"crossPlatform": true,
 		"gameProperties": {
 			"serverMaxViewDistance": 1600,
 			"serverMinGrassDistance": 0,

@@ -1,8 +1,5 @@
 FROM debian:bullseye-slim
 
-LABEL maintainer="ACE Team - https://github.com/acemod"
-LABEL org.opencontainers.image.source=https://github.com/acemod/docker-reforger
-
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update \
     && \

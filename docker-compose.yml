@@ -1,7 +1,9 @@
 ---
 services:
   arma-reforger:
-    image: ghcr.io/acemod/arma-reforger:latest
+    build: .
+    image: arma-reforger:latest
+    restart: unless-stopped
     platform: linux/amd64
     container_name: arma-reforger
     ports:
@@ -13,5 +15,7 @@ services:
       - ./reforger/profile:/home/profile
       - ./reforger/workshop:/reforger/workshop
     environment:
-      - SERVER_PUBLIC_ADDRESS=public-ip
-      - GAME_NAME=My Docker Reforger Server
+      - SERVER_PUBLIC_ADDRESS=""
+      - RCON_PASSWORD=""
+      - GAME_PASSWORD=""
+      - GAME_PASSWORD_ADMIN=""
