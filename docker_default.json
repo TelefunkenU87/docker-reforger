@@ -28,7 +28,7 @@
 			"networkViewDistance": 1500,
 			"disableThirdPerson": false,
 			"fastValidation": true,
-			"battlEye": true,
+			"battlEye": false,
 			"missionHeader": {}
 		},
 		"mods": []
